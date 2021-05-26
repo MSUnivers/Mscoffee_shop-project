@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    /* background-color: #e9dccd; */
+    font-family: "Lato", sans-serif;
+   
+}
+
+header{
+    background-color:rgba(122, 73, 37, 0.589);  
+    height: 80px;
+    width: 100%;
+    /* position: fixed; */
+      
+}
+header img{
+    height: 70px;
+    width: 95px;
+    margin-left: 50px ; 
+    margin-top: 8px;
+    
+}
+header nav{
+    float:right;
+    margin: 15px 30px 0 0;
+    box-sizing: border-box;
+    margin-top: 30px;
+    
+}
+
+header  ul {
+    list-style: none;
+    width: 100%;
+  }
+  
+  header  li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  header  a {
+    transition: 0.6s;
+    display: block;
+    text-decoration: none;
+    height: 60px; 
+    color: white;
+
+  }
+  
+  header nav ul li a:hover {
+    color: rgb(46, 19, 19);
+    transform: translate(9px, 10px);
+
+  }
+  
+.HeroSection{
+    background-image:url(img/background.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    height:500px;    
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  .HeroSection h1{
+   font-size:90px; 
+   color: cornsilk;
+   font-family:'Dancing Script', cursive;;
+   position: relative;
+   right: 180px;
+   top: 100px;
+ }
+ .HeroSection p{
+    font-size: 18px;
+    color: rgba(94, 51, 8, 0.726);
+    font-variant: small-caps;
+    font-weight:bolder;
+    position: relative;
+    bottom: -100px;
+    right: 180px;
+ }
+ .gallery{
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+
+ }
+ .gallery img{
+    display: block;
+    height: 160px;
+    width: 180px;
+    margin: 0 auto;
+}
+.sec_style{
+    width: 100%;}
+#About{
+    background-image: url(https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top-1.jpg) ;
+    height: 700px;
+    background-size: cover;
+    
+}
+
+.sec_style article{
+   padding: 50px 150px 50px 150px;
+   
+}
+.sec_style article>h1{
+   margin-bottom: 10px;
+}
+
+.sec_style h1, .sec_style h2{
+   font-weight: bold;
+   color: rgb(49, 47, 47);
+}
+
+.sec_style h1{
+   font-size: 35px;
+   margin-left: 10px;
+}
+
+.sec_style h2{
+   font-size: 24px;
+}
+
+.sec_style p{  
+   margin: 10px 10px;
+   font-weight:bold;
+   font-size: 20px;
+   font-family: 'Bad Script', cursive;
+}
+.gallery{
+   margin-top: 10px;
+}
+.gallery img{
+   margin-left: 8px;
+   border: 1px solid black;
+   box-shadow: 6px 6px rgba(0, 0, 0, 0.541);
+}
+.CardG{
+    margin: 20px 0 100px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+.Card {
+    /* height: 350px; */
+    width:450x;
+    margin-right: 30px;
+    box-shadow: 10px 10px rgba(163, 120, 168, 0.322);
+    border: 2px rgba(163, 120, 168, 0.322) solid;
+    padding: 10px 0;
+}
+.Card h1{
+    
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+
+}
+.Card img{
+    display: block;
+    margin: 0 auto;
+    height:300px;
+    width: 450px;
+}
+.Card img:hover{
+    height: 400px;
+    width: 500px;
+}
+.Card ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.Card li{
+    font-size: 20px;
+    text-align: center;
+}
+#menu{
+    background-color: rgba(190, 171, 152, 0.5);
+}
+
+#location {
+    background-image: url(https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top-1.jpg) ;
+    height: 700px;
+    background-size: cover;
+}
+
+#location img {
+    border: black 2px solid;
+}
+
+.time{
+    float: right;
+    margin-right: 100px;  
+}
+
+
+#Reservation form{
+    display: inline-block;
+    width: 60%;
+}
+#Reservation {
+    
+    height: 800px;
+    background-image: url(http://www.seekgif.com/uploads/hd-drinks-coffee-wallpapers-0.jpeg);
+    background-size: cover;
+   
+}
+
+#Reservation>div {
+    width: 50%;
+    margin: 0 auto;
+
+}
+#Reservation label{
+text-align: right;
+font-weight: bold;
+
+}
+#Reservation input,
+select,
+textarea
+ {
+    width: 200px;
+    float: right;
+}
+.sub{
+    clear: both;
+    margin-left: 220px;
+    padding-top: 10px;
+}
+.padd{
+    margin-bottom: 10px;
+}
+
+.mainEvent{
+    background-image: url(https://cdn.nohat.cc/image_by_url.php?url=https://image.freepik.com/free-photo/mothers-day-concept-with-mug-and-space-on-right_23-2147776058.jpg);
+    background-size:cover;
+}
+#events{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#events ol{
+    width: 60%;
+    list-style-position: inside;
+    display: block;
+    margin-left: 210px;
+    padding: 10px 0 0 30px;  
+    box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, .6);;
+}
+#events ul{
+    margin-left: 20px;
+    padding:5px 0 10px 10px;
+}
+.memo{
+    font-weight: bold;
+    color: rgba(87, 29, 29, 0.644);
+}
+.galleryEvent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.galleryEvent div{
+    padding:10px 10px;
+}
+
+.galleryEvent img{
+    height: 300px;
+    width: 400px;
+}
+
+footer{
+    background-color:rgba(122, 73, 37, 0.589);  
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    height: 80px;
+}
+.fa {
+    padding: 10px;
+    font-size: 13px !important;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background:linear-gradient(90grad,red,yellow,pink,purple);
+    color:grey;
+  }
+
+    
